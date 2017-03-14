@@ -28,6 +28,9 @@ namespace Example02
 
             for (int index = 1; index <= count; index++)
             {
+                if (index == 3)
+                    continue;
+
                 Console.Write("請輸入第{0}個數字 : ", index);
                 int number = 0;
                 try
